@@ -1,0 +1,26 @@
+{
+  "name": "Sandbox",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.13.3",
+    "storyblok-nuxt": "^2.0.1",
+    "vue-carousel": "^0.18.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "css-loader": "^5.2.7",
+    "postcss": "^8.3.11",
+    "postcss-import": "^13.0.0",
+    "postcss-loader": "^4.3.0",
+    "postcss-url": "^10.1.3"
+  }
+}
