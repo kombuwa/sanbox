@@ -2,6 +2,7 @@
   <div
     v-editable="blok"
     class="py-2 text-center">
+    <a :href="blok.link">
     <img
       class="mx-auto"
       :src="blok.image.filename">
@@ -9,6 +10,7 @@
     <p class="text-gray-600">
       {{ blok.description }}
     </p>
+    </a>
   </div>
 </template>
  
